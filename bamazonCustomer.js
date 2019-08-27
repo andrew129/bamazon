@@ -3,9 +3,9 @@ let inquirer = require('inquirer');
 
 let connection = mysql.createConnection({
     host: "localhost",
-    port: 3306,
+    port: 8889,
     user: "root",
-    password: "Butterfly13!",
+    password: "root",
     database: "bamazon"
 });
 
