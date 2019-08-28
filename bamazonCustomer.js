@@ -21,6 +21,7 @@ function displayItems() {
         if (err) throw err;
         for (let i = 0; i < results.length; i++) {
             console.log(results[i].product_name);
+            console.log(results[i].product_sales)
         }
     })
     selectItem()
@@ -80,10 +81,12 @@ function fulfillOrder(name, quantity, units, price) {
             },
             {
                 product_name: name
+            },
+            {
+                product_sales: price * quantity
             }
         ],
     );
-        console.log(quantity)
         console.log('congratulations your order was received successfully' + ', ' +  'Your total cost is: ' + '$' + price * units)     
         connection.end()
 }

@@ -41,29 +41,29 @@ function start() {
         })
 }
 
-function confirm() {
-    inquirer
-        .prompt([
-            {
-                type: 'confirm',
-                message: 'would you like to do something else?',
-                name: 'confirm',
-                default: true
-            }
-        ]).then(function(answer) {
-            switch (answer.confirm) {
-                case true:
-                    return start()
+// function confirm() {
+//     inquirer
+//         .prompt([
+//             {
+//                 type: 'confirm',
+//                 message: 'would you like to do something else?',
+//                 name: 'confirm',
+//                 default: true
+//             }
+//         ]).then(function(answer) {
+//             switch (answer.confirm) {
+//                 case true:
+//                     return start()
                 
-                case false:
-                    return connection.end()
+//                 case false:
+//                     return connection.end()
 
-                default:
-                    break
-            }
-        })
-        connection.end()
-}
+//                 default:
+//                     break
+//             }
+//         })
+//         connection.end()
+// }
 
 function viewProducts() {
     console.log("Selecting all products...\n");
@@ -76,7 +76,6 @@ function viewProducts() {
             console.log('quantity: ' + results[i].stock_quantity)
             console.log('----------------------------------')
         }
-        connection.end() 
     }) 
 }
 
@@ -96,7 +95,6 @@ function lowInventory() {
             }
         }
     })
-    connection.end()
 }
 
 function addStock() {
@@ -136,7 +134,6 @@ function addStock() {
                     console.log('The new stock count for ' + chosenItem + 'is ' + quantity)
                 )
             })
-            connection.end()
     })
 }
 
@@ -185,7 +182,6 @@ function addProduct() {
                 }
             )
         })
-        connection.end()
 }
 
 start()

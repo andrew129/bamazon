@@ -9,7 +9,8 @@ create table products (
     product_name varchar(30) not null,
     department_name varchar(30) not null,
     price decimal(10, 3) not null,
-    stock_quantity int(20) not null 
+    stock_quantity int(20) not null,
+    product_sales decimal(10, 3) not null
 );
 
 insert into products (item_id, product_name, department_name, price, stock_quantity)
@@ -41,3 +42,9 @@ values (9, '8k TV', 'electronics', 7999.99, 4);
 
 insert into products (item_id, product_name, department_name, price, stock_quantity)
 values (10, 'led nighthawk drone', 'electronics', 1200, 13);
+
+create table departments (
+    department_id int(10) not null,
+    department_name varchar(30) not null,
+    over_head_costs int,
+)
