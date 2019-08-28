@@ -1,6 +1,6 @@
 # bamazon
 
-This app is an online store that resembles amazon.  Using this app, the customer can successfully purchase anything from the store and it will let them know the total cost.  As a manager you can add stock to any product you like as well as view what products have a low supply.  You can also add your own product to the store.  Below you can find screenshots to help you use the app.
+This app is an online store that resembles amazon.  Using this app, the customer can successfully purchase anything from the store and it will let them know the total cost.  As a manager you can add stock to any product you like as well as view what products have a low supply.  You can also add your own product to the store.  Below you can find screenshots to help you use the app.  This app uses both mysql and javascript.
 
 purchasing products guide
 ![purchase products](/screenshots/purchasing1.png)
