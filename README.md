@@ -18,16 +18,16 @@ This app is an online store that resembles amazon.  Use this app as a customer A
 2. Access Manager Main Menu
 ![Manager Main Menu](/screenshots/managermain.png)
 
-3. Lists all Products
+3. List all Products
 ![product list](/screenshots/productlist.png)
 
-4. Shows Products with Low Inventory
+4. Show Products
 ![low inventory](/screenshots/lowinventory.png)
 
-5. Adding to inventory
+5. Add to inventory
 ![add to inventory](/screenshots/addtoinventory1.png)
 ![add to inventory](/screenshots/addingtoinventory.png)
 
-6. Adding New Product to store
+6. Add New Product to store
 ![add new product](/screenshots/addnewproduct1.png)
 ![add new product](/screenshots/addingnewproduct.png)
