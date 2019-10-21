@@ -1,6 +1,6 @@
 # bamazon
 
-This app is an online store that resembles amazon.  Use this app as a customer to buy any product on the store. As a manager you can add stock to any product you like as well as view what products have a low supply.  You can also add your own product to the store.  Below you can find screenshots to help you use the app.  This app uses both mysql and nodeJS.
+This app is an online store that resembles amazon.  Use this app as a customer to buy any product on the store. As a manager you can add stock to any product you like as well as view what products have a low supply.  You can also add your own product to the store.  Below you can find screenshots to help you use the app.  This app uses both mysql and nodeJS. To get started, clone this repo and navigated to the root of the folder.  Then type node 
 
 ## Technologies Used
 
@@ -10,6 +10,8 @@ This app is an online store that resembles amazon.  Use this app as a customer t
 - JavaScript
 - NodeJS
 - dependencies used: inquirer, mySQL
+
+## How to Use
 
 1. Purchasing Products
 
