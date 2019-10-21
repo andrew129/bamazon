@@ -2,6 +2,15 @@
 
 This app is an online store that resembles amazon.  Use this app as a customer As a manager you can add stock to any product you like as well as view what products have a low supply.  You can also add your own product to the store.  Below you can find screenshots to help you use the app.  This app uses both mysql and nodeJS.
 
+## Technologies Used
+
+- SQL
+- mySQL Workbench
+- Github
+- JavaScript
+- NodeJS
+- dependencies used: inquirer, mySQL
+
 1. Purchasing Products
 ![purchase products](/screenshots/purchasing1.png)
 ![purchase products](/screenshots/purchasing.png)
